@@ -1,0 +1,31 @@
+{
+  "name": "bronto",
+  "version": "0.1.0",
+  "description": "Bully for redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "bully",
+    "election",
+    "distributed"
+  ],
+  "author": "Hugo Wetterberg <hugo@wetterberg.nu>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.19"
+  },
+  "dependencies": {
+    "uuid": "~1.4.1",
+    "redis": "~0.9.1",
+    "bully": "~0.2.1"
+  },
+  "devDependencies": {
+    "winston": "~0.7.2"
+  },
+  "peerDependencies": {
+    "winston": "0.x"
+  }
+}
